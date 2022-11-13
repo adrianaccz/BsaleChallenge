@@ -1,10 +1,9 @@
-import { config } from "dotenv"
+require('dotenv').config();
 
-config()
 
 export default {
   host: process.env.HOST || "",
   database: process.env.DATABASE || "",
-  user2: process.env.USER || "",
+  user: process.env.USER2 || "",
   password: process.env.PASSWORD || "",
 }
