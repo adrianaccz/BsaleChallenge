@@ -1,6 +1,5 @@
 require('dotenv').config();
 
-
 export default {
   host: process.env.HOST || "",
   database: process.env.DATABASE || "",
