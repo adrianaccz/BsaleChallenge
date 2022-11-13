@@ -12,7 +12,7 @@ Para esta parte del desafío se realizo con Node.js y Express, junto con varias 
 - npm i morgan : Se usa para ver las peticiones que haremos en el proyecto (GET)
 - npm i nodemon : Se utiliza para que el servidor se actualice automáticamente y podamos ver la información sin necesidad de estar deteniendo el servidor y volverlo a cargar.
 
-La base de datos consta de dos tablas una de “products” y otra de “category”
+La base de datos consta de dos tablas una de “products” y otra de “category”, y se tiene que crear una archivo .env en la raíz del proyecto, donde se pondrá los datos para la conexión a la base de datos.
 
 Para hacer la conexión hacia la base de datos se utilizaron las siguientes configuraciones:
 
