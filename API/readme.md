@@ -61,7 +61,7 @@ Como en esta petición estamos pidiendo la información de un producto en especi
 	}
 ]
 
-Al Realizar una petición HTTP a la ruta (http://localhost:3001/api/products/beard) el servicio retorna un JSON con la siguiente estructura (array de objetos).
+Al Realizar una petición HTTP a la ruta (http://localhost:3001/api/products/beer) el servicio retorna un JSON con la siguiente estructura (array de objetos).
 
 Esta ruta lo que hace es filtrar todos los productos y traernos solo los que están en categorías de “cerveza”, como se realizo esta ruta también están realizadas las otras categorías.
 [
