@@ -5,7 +5,7 @@ const router = Router();
 
 router.get('/', productController.getProducts);
 router.get('/search', productController.getProductsSearch);
-router.get('/beard', productController.getProductsCategoriesBear)
+router.get('/beer', productController.getProductsCategoriesBear)
 router.get('/ron', productController.getProductsCategoriesRon)
 router.get('/energetic', productController.getProductsCategoriesEnergetic)
 router.get('/beverage', productController.getProductsCategoriesBeverage)
