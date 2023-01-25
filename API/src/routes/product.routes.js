@@ -13,5 +13,8 @@ router.get('/pisco', productController.getProductsCategoriesPisco)
 router.get('/snack', productController.getProductsCategoriesSnack)
 router.get('/vodka', productController.getProductsCategoriesVodka)
 
-
+//curso git
+router.post('/login', (req, res)=> {
+  res.send('Estas en la ruta del login')
+})
 export default router;
