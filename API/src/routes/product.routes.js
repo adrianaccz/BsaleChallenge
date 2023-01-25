@@ -1,4 +1,4 @@
-import { Router } from "express";
+import { application, Router } from "express";
 import { methods as productController } from "../controllers/product.controller";
 
 const router = Router();
@@ -13,5 +13,8 @@ router.get('/pisco', productController.getProductsCategoriesPisco)
 router.get('/snack', productController.getProductsCategoriesSnack)
 router.get('/vodka', productController.getProductsCategoriesVodka)
 
-
+//curso git
+router.get('/registro', (req, res)=> {
+  res.send('Estas en la ruta de registro')
+})
 export default router;
