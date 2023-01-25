@@ -14,6 +14,9 @@ router.get('/snack', productController.getProductsCategoriesSnack)
 router.get('/vodka', productController.getProductsCategoriesVodka)
 
 //curso git
+router.post('/login', (req, res)=> {
+  res.send('Estas en la ruta del login')
+})//curso git
 router.get('/registro', (req, res)=> {
   res.send('Estas en la ruta de registro')
 })
